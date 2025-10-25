@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "template": "init.client.luau.ft",
+      "destination": "src/client/init.client.luau",
+      "openInEditor": true
+    },
+    {
+      "template": "init.server.luau.ft",
+      "destination": "src/server/init.server.luau",
+      "openInEditor": true
+    },
+    {
+      "template": "Hello.luau.ft",
+      "destination": "src/shared/Hello.luau",
+      "openInEditor": true
+    }
+  ]
+}

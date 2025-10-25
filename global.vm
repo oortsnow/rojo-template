@@ -1,0 +1,5 @@
+#* @implicitly included *#
+
+#* @vtlvariable name="PROJECT_NAME" type="java.lang.String" *#
+
+#set ( $dollar = "$" )

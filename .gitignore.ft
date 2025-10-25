@@ -1,0 +1,13 @@
+# Project place file
+/rojo-temp.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Rojo
+sourcemap.json
+
+# Pesde
+luau_packages/
+roblox_packages/

@@ -1,0 +1,52 @@
+#parse("./global.vm")
+
+{
+  "name": $PROJECT_NAME,
+  "tree": {
+    "${dollar}className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "${dollar}path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "${dollar}path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "${dollar}path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "${dollar}properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "${dollar}className": "Part",
+        "${dollar}properties": {
+          "Anchored": true,
+          "Color": [
+            0.35686,
+            0.35686,
+            0.35686
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -8,
+            0
+          ],
+          "Size": [
+            2048,
+            16,
+            2048
+          ]
+        }
+      }
+    }
+  }
+}
