@@ -3,16 +3,18 @@
     {
       "template": "init.client.luau.ft",
       "destination": "src/client/init.client.luau",
-      "openInEditor": true
+      "reformat": true
     },
     {
       "template": "init.server.luau.ft",
       "destination": "src/server/init.server.luau",
+      "reformat": true,
       "openInEditor": true
     },
     {
       "template": "Hello.luau.ft",
       "destination": "src/shared/Hello.luau",
+      "reformat": true,
       "openInEditor": true
     }
   ]
